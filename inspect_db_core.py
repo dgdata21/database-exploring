@@ -11,7 +11,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import URL
 import clickhouse_connect as chc
-import ig_roadmap.db_explore.inspect_db_vars as v
+import database_exploring.inspect_db_vars as v
 
 
 # ==================================================
