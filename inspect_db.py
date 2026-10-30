@@ -10,8 +10,8 @@ from datetime import datetime
 import pandas as pd
 from sqlalchemy import text
 from dotenv import load_dotenv
-import ig_roadmap.db_explore.inspect_db_core as core
-import ig_roadmap.db_explore.inspect_db_vars as v
+import database_exploring.inspect_db_core as core
+import database_exploring.inspect_db_vars as v
 
 
 # ============================================================
