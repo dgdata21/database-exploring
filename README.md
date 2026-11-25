@@ -24,7 +24,8 @@ Credentials are read from the environment, which is populated via `load_dotenv` 
 | ClickHouse | `cl_host`, `cl_port`, `cl_base`, `cl_user`, `cl_pass` |
 | PostgreSQL | `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASS` |
 
-If any variable is missing, `get_cfg` will raise a `ValueError` listing the missing items. **Never** commit the file containing your passwords. ## 1. Inspect_db_vars.py
+If any variable is missing, `get_cfg` will raise a `ValueError` listing the missing items. **Never** commit the file containing your passwords. 
+## 1. Inspect_db_vars.py
 
 **SECTION 1. SETTINGS**
 - `CREDS_PATH` — path to the file containing credentials.
